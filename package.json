@@ -1,0 +1,39 @@
+{
+  "name": "@oneisland/tessellation",
+  "private": false,
+  "version": "0.0.1",
+  "description": "A simple library for triangle face tessellation",
+  "keywords": [
+    "tessellation",
+    "geodesic",
+    "triangle",
+    "cad",
+    "oneisland"
+  ],
+  "main": "lib/tessellation.js",
+  "scripts": {
+    "build": "oneisland-babler lib",
+    "test": "npm run build && ava",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@oneisland/math": "^0.0.2"
+  },
+  "devDependencies": {
+    "@oneisland/babler": "^0.0.7",
+    "@oneisland/linter": "^0.0.11",
+    "ava": "^2.4.0"
+  },
+  "homepage": "https://github.com/oneislandearth/tessellation#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneislandearth/tessellation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oneislandearth/tessellation/issues"
+  },
+  "contributors": [
+    "Daniel Larkin <daniel@oneisland.io>"
+  ],
+  "license": "MIT"
+}
