@@ -1,7 +1,7 @@
 {
   "name": "@oneisland/tessellation",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple library for triangle face tessellation",
   "keywords": [
     "tessellation",
@@ -15,9 +15,6 @@
     "build": "oneisland-babler lib",
     "test": "npm run build && ava",
     "prepublishOnly": "npm run build"
-  },
-  "dependencies": {
-    "@oneisland/math": "^0.0.2"
   },
   "devDependencies": {
     "@oneisland/babler": "^0.0.7",

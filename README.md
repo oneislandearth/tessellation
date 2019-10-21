@@ -220,7 +220,7 @@ The `faces` argument should be an [Array](https://developer.mozilla.org/en-US/do
 
 ##### divisions
 
-The `divisions` argument should be a [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) of Number values which defines how many times the faces should be recursively subdivided.
+The `divisions` argument should be a [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) which defines how many times the faces should be recursively subdivided.
 
 ## License
 
